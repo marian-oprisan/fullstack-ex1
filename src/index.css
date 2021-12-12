@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+.App h1,
+.App h3 {
+  text-align: center;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  border-bottom: 3px solid #333;
+  padding-bottom: 5rem;
+}
+
+.count {
+  font-size: 1.5rem;
+}
+
+.increment-btn,
+.decrement-btn {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  color: #eee;
+  background-color: #333;
+  width: 3rem;
+}
+
+.list-field {
+  padding-bottom: 3rem;
+  border-bottom: 3px solid #333;
+  margin-bottom: 3rem;
+}
+
+.inputDisplay {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.inputDisplay input {
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: center;
+}
